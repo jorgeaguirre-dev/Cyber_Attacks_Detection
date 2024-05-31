@@ -1,3 +1,8 @@
+### Archivos:
+ProyectoDS_ParteI_AguirreJorge.ipynb: Proceso ETL del DataSet, análisis exploratorio, hipótesis y Preentrega I.
+ProyectoDS_ParteI_AguirreJorge2.ipynb: Exploración adicional del df previo al trabajo de ML propiamente dicho.
+ProyectoDS_ParteI_AguirreJorge.ipynb: Procesamiento para la entrega final mediante modelos de clasificación. (Entrega Final)
+
 # Proyecto DS I - Parte Final #
 ### Autor: Jorge Aguirre
 
