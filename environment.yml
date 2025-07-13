@@ -1,0 +1,17 @@
+name: deep-learn-proy
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - pandas
+  - matplotlib
+  - scikit-learn
+  - nltk
+  - spacy
+  - wordcloud
+  - pip
+  - pip:
+      - textblob
+      - contractions
+      - google-cloud-translate
