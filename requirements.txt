@@ -1,6 +1,6 @@
-graphviz
-matplotlib
-numpy
 pandas
+matplotlib
+scikit-learn
+graphviz
+numpy
 seaborn
-sklearn

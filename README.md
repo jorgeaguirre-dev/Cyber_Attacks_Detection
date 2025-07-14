@@ -1,10 +1,12 @@
 ### Archivos:
-ProyectoDS_ParteI_AguirreJorge.ipynb: Proceso ETL del DataSet, análisis exploratorio, hipótesis y Preentrega I.
-ProyectoDS_ParteI_AguirreJorge2.ipynb: Exploración adicional del df previo al trabajo de ML propiamente dicho.
-ProyectoDS_ParteI_AguirreJorge.ipynb: Procesamiento para la entrega final mediante modelos de clasificación. (Entrega Final)
+- [Notebook 1](Notebook01.ipynb): Proceso ETL del DataSet, análisis exploratorio e hipótesis.
+- [Notebook 2](Notebook02.ipynb): Exploración adicional del dataframe previo al trabajo de ML propiamente dicho.
+- [Notebook 3](Notebook03.ipynb): Procesamiento final mediante modelos de clasificación.
 
-# Proyecto DS I - Parte Final #
-### Autor: Jorge Aguirre
+# Cyber Attacks Detection
+Descripción del procesamiento final posterior a las etapas de ETL y análisis exploratorio.
+
+**Autor: Jorge Aguirre**
 
 ## Introducción:
 
@@ -12,7 +14,7 @@ _En el contexto de la ciberseguridad, donde la proliferación de ciberataques es
 
 ## Objetivo:
 
-##### Nuestro objetivo principal es desarrollar un modelo de detección de intrusiones capaz de identificar y bloquear automáticamente actividades maliciosas en tiempo real. Al integrar este modelo en dispositivos de seguridad de borde, como firewalls, se espera mejorar la eficiencia de los sistemas de seguridad y proteger mejor las redes contra ataques cibernéticos. Todo gracias a ésta detección que nos proveerá el modelo. #####
+**Mi objetivo principal es desarrollar un modelo de detección de intrusiones capaz de identificar y bloquear automáticamente actividades maliciosas en tiempo real. Al integrar este modelo en dispositivos de seguridad de borde, como firewalls, se espera mejorar la eficiencia de los sistemas de seguridad y proteger mejor las redes contra ataques cibernéticos. Todo gracias a ésta detección que nos proveerá el modelo.**
 
 ## Hipótesis:
 + Como disponemos de la información del protocolo de cada paquete, esperamos que los protocolos más atacados sean TCP y UDP por ser los más populares.
@@ -20,9 +22,9 @@ _En el contexto de la ciberseguridad, donde la proliferación de ciberataques es
 > **10 Most Common Types of Cyber Attacks Today** [Link](https://www.crowdstrike.com/cybersecurity-101/cyberattacks/most-common-types-of-cyberattacks/)
 + Respecto a las pérdidas de paquetes y retransmisiones esperamos que aumenten debido a la distorsión introducida por los ataques.
 
-![image](https://github.com/innovation-hard/DSI/assets/88628990/f3f3866e-3d68-4411-a6a8-6bd947042458)
+![Esquema conceptual](esquema_conceptual.png)
 
-### Diccionario del Df final
+### Diccionario del Dataframe final
 Luego extraeremos una cantidad limitada de filas para nuestro trabajo.
 | No. | Name            | Type    | Description                                                                                                             |
 |-----|-----------------|---------|-------------------------------------------------------------------------------------------------------------------------|
