@@ -1,12 +1,16 @@
+
+# Cyber Attacks Detection
+![Python >=3.11](https://img.shields.io/badge/python-%3E%3D3.11-blue.svg)
+![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)
+
+Descripción del procesamiento final posterior a las etapas de ETL y análisis exploratorio.
+
+**Autor: Jorge Aguirre**
+
 ### Archivos:
 - [Notebook 1](Notebook01.ipynb): Proceso ETL del DataSet, análisis exploratorio e hipótesis.
 - [Notebook 2](Notebook02.ipynb): Exploración adicional del dataframe previo al trabajo de ML propiamente dicho.
 - [Notebook 3](Notebook03.ipynb): Procesamiento final mediante modelos de clasificación.
-
-# Cyber Attacks Detection
-Descripción del procesamiento final posterior a las etapas de ETL y análisis exploratorio.
-
-**Autor: Jorge Aguirre**
 
 ## Introducción:
 
@@ -23,6 +27,19 @@ _En el contexto de la ciberseguridad, donde la proliferación de ciberataques es
 + Respecto a las pérdidas de paquetes y retransmisiones esperamos que aumenten debido a la distorsión introducida por los ataques.
 
 ![Esquema conceptual](esquema_conceptual.png)
+
+### Instalar dependencias:
+Es necesario instalar algunas librerías para poder ejecutar éste notebook aparte de las clásicas como pandas.
+
+```python
+# Requisitos por gestor de paquetes
+# Crear entorno con conda
+conda env create -f environment.yml
+
+# Activar entorno
+conda activate cyber-attacks-detection
+
+```
 
 ### Diccionario del Dataframe final
 Luego extraeremos una cantidad limitada de filas para nuestro trabajo.
@@ -77,3 +94,9 @@ Luego extraeremos una cantidad limitada de filas para nuestro trabajo.
 | 47  | ct_dst_src_ltm  | integer | No of connections of the same source (1) and the destination (3) address in in 100 connections according to the last time (26). |
 | 48  | attack_cat      | nominal | The name of each attack category. In this data set, nine categories e.g. Fuzzers, Analysis, Backdoors, DoS Exploits, Generic, Reconnaissance, Shellcode and Worms |
 | 49  | Label           | binary  | 0 for normal and 1 for attack records                                                                                    |
+
+## 📄 License
+
+This project is licensed under the [MIT License](./LICENSE).
+
+💡 For commercial inquiries or specific licensing questions, feel free to contact me.

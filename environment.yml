@@ -1,4 +1,4 @@
-name: deep-learn-proy
+name: cyber-attacks-detection
 channels:
   - conda-forge
   - defaults
