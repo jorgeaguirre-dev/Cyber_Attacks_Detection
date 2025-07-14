@@ -7,15 +7,15 @@ Descripción del procesamiento final posterior a las etapas de ETL y análisis e
 
 **Autor: Jorge Aguirre**
 
-### Archivos:
-- [Notebook 1](Notebook01.ipynb): Proceso ETL del DataSet, análisis exploratorio e hipótesis.
-- [Notebook 2](Notebook02.ipynb): Exploración adicional del dataframe previo al trabajo de ML propiamente dicho.
-- [Notebook 3](Notebook03.ipynb): Procesamiento final mediante modelos de clasificación.
-
 ## Introducción:
 
 _En el contexto de la ciberseguridad, donde la proliferación de ciberataques es cada vez más común, surge la necesidad de proteger estas redes contra éstas amenazas. Este proyecto de Data Science busca analizar conjuntos de datos de tráfico IoT e IIoT._
 
+### Archivos:
+- [Notebook 1](Notebook01.ipynb): Proceso ETL del DataSet, análisis exploratorio e hipótesis.
+- [Notebook 2](Notebook02.ipynb): Exploración adicional del dataframe previo al trabajo de ML propiamente dicho.
+- [Notebook 3](Notebook03.ipynb): Procesamiento final mediante modelos de clasificación.
+  
 ## Objetivo:
 
 **Mi objetivo principal es desarrollar un modelo de detección de intrusiones capaz de identificar y bloquear automáticamente actividades maliciosas en tiempo real. Al integrar este modelo en dispositivos de seguridad de borde, como firewalls, se espera mejorar la eficiencia de los sistemas de seguridad y proteger mejor las redes contra ataques cibernéticos. Todo gracias a ésta detección que nos proveerá el modelo.**
@@ -28,7 +28,11 @@ _En el contexto de la ciberseguridad, donde la proliferación de ciberataques es
 
 ![Esquema conceptual](esquema_conceptual.png)
 
-### Instalar dependencias:
+## Artículo desarrollado en base a éste proyecto
+Se puede visualizar lo trabajado en éste proyecto en un sólo sitio, a traves del artículo siguiente:
+[Detecting Malign Traffic in IoT Devices](https://www.linkedin.com/posts/jorgeaguirre-dev_datascience-machinelearning-python-activity-7206966056551165954-AIW2?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAZWR78BOH_U0YYaXrXolrQlxKMa6BJU11s)
+
+## Instalar dependencias:
 Es necesario instalar algunas librerías para poder ejecutar éste notebook aparte de las clásicas como pandas.
 
 ```python
@@ -41,7 +45,7 @@ conda activate cyber-attacks-detection
 
 ```
 
-### Diccionario del Dataframe final
+## Diccionario del Dataframe final
 Luego extraeremos una cantidad limitada de filas para nuestro trabajo.
 | No. | Name            | Type    | Description                                                                                                             |
 |-----|-----------------|---------|-------------------------------------------------------------------------------------------------------------------------|
